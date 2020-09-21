@@ -242,6 +242,7 @@ strong {
     border-top: 3px solid #373737;
     border-left: 3px solid #373737;
     transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+    cursor: pointer;
 }
 
 .arrow-left {
@@ -251,6 +252,12 @@ strong {
     border-right: 3px solid #373737;
     border-bottom: 3px solid #373737;
     transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+    cursor: pointer;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0) scale(1.2);
 }
 
 .slider-control {
