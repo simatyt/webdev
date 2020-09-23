@@ -167,8 +167,12 @@ strong {
     background: url(./assets/laptop.jpg);
 }
 
-.section-start p {
-    margin-top: 20px;
+.section-start>h1 {
+    padding-left: 5px;
+}
+
+.section-start>p {
+    margin-top: 21px;
     font-size: 18px;
     text-align: center;
 }
