@@ -164,7 +164,11 @@ strong {
     justify-content: flex-start;
     height: 649px;
     padding-top: 136px;
-    background: url(./assets/laptop.jpg);
+    background-image: url(./assets/laptop.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -117px;
+
 }
 
 .section-start>h1 {
