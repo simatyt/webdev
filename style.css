@@ -237,6 +237,7 @@ strong {
     align-items: flex-end;
     justify-content: center;
     height: 100px;
+    padding-left: 318px;
     font-size: 18px;
 }
 
@@ -271,6 +272,11 @@ strong {
 
 .slider-control {
     height: 20px;
+}
+
+.slider-control .page-delimiter {
+    margin: 0 5px;
+    cursor: default;
 }
 
 .slider-content {
@@ -324,7 +330,7 @@ strong {
 
 .section-download {
     height: 468px;
-    padding-bottom: 61px;
+    padding-bottom: 59px;
     background-color: #F5F6F7;
 }
 
@@ -352,7 +358,9 @@ strong {
 }
 
 .footer .credits {
-    padding-left: 121px;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
     color: #fff;
     opacity: 0.98;
 }
@@ -367,7 +375,11 @@ strong {
 }
 
 .text-delimiter {
-    margin: 0 15px;
+    margin: 0 19px;
+    opacity: 0.5;
+    font-size: 10px;
+    font-weight: 300;
+    cursor: default;
 }
 
 .world-logo-icon {
